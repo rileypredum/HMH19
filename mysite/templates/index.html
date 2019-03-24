@@ -7,6 +7,7 @@
 	  <link rel="stylesheet"
 	         href="https://fonts.googleapis.com/css?family=Raleway">
 	  <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css" />
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 
 	<body style="min-height: 100vh; background: repeating-linear-gradient(-15deg, #DCF5ED, #FACAA6);">
@@ -24,7 +25,6 @@
 				<div style="text-align: center; border-radius: 0px; border: 0px solid #CB7979; position:relative; left:250px; top:250px; width: 500px; height: 40px; line-height: 40px; top: 10px;">
 				</div>
 			</div>
-			<div 
 			<span style="font-size: 15px; position: absolute; left: 450px; top: 155px;"><b></b></span><br>
 		</div>
 		<div style="text-align: center;">
@@ -49,7 +49,7 @@
 		</div>
 
 		<div style="text-align: center;">
-			<button style="">
+			<button>
 				Find Stories
 			</button>
 		</div>
@@ -59,25 +59,6 @@
 			- Thich Nhat Hahn
 		</div>
 
-<!-- db.getCollection("Communities").insert({
-    "title": "r/anxiety",
-    "preview": "Discussion and support for sufferers and loved ones of any anxiety disorder.",
-    "hyperlink": "https://www.reddit.com/r/Anxiety/"
-})
-
-db.getCollection("Communities").insert({
-    "title": "Group Support Rooms",
-    "preview": "7 Cups - Group Support Room for anxiety",
-    "hyperlink": "https://www.7cups.com/connect/groupChatrooms.php"
-})
-
-db.getCollection("Communities").insert({
-    "title": "#HALFTHESTORY",
-    "preview": "A community that encourages you to share a part of yourself that exists outside of your social media story",
-    "hyperlink": "https://www.instagram.com/halfthestory/?hl=en"
-}) -->
-
-		{% if showContent != "true" %}{% endif %}
 		<div style="margin-left: 10%; margin-right: 10%; ">
 			<div style="margin-bottom: 10px">
 				<div style="text-decoration: underline double; font-size: 24px; margin-bottom: 10px; background: white; width: 210px; padding-bottom: 10px">Blogs and Stories</div>
@@ -129,17 +110,19 @@ db.getCollection("Communities").insert({
 			<div>
 				<div style="text-decoration: underline double; font-size: 24px; margin-bottom: 10px; background: white; width: 170px; padding-bottom: 10px">Communities</div>
 				<div style="overflow-x: auto; white-space: nowrap;">
-				    <div style="width: 315px; height: 300px; margin-right: 15px; display: inline-block; background: white">
-						<img src="{% static 'images/sunset.jpg' %}" style="width: 315px; height: 155px"><br>
-						<div style="width: 100%">
-							<div style="margin-top: 10px; margin-left: 10px; display: inline-block;">
-								<img src="{% static 'logos/medium.png' %}" style="width: 35px; height: 35px;">
+				    <div class="tile">
+						<a href="https://www.reddit.com/r/Anxiety/">
+							<img src="{% static 'images/sunset.jpg' %}" class="tile-image"><br>
+							<div>
+								<div class="tile-icon">
+									<img src="{% static 'logos/medium.png' %}">
+								</div>
+								<div class="tile-text">
+									<span>r/anxiety</span><br/>
+									<div>Discussion and support for sufferers and loved ones of any anxiety disorder.</div>
+								</div>
 							</div>
-							<div style="font-weight: 700; line-height: 35px; height: 35px; display: inline-block;">
-								<span>#HALFTHESTORY</span><br/>
-								<span>A community that encourages you to share a part of yourself that exists outside of your social media story.</span>
-							</div>
-						</div>
+						</a>
 				    </div>
 				</div>
 			</div>
@@ -152,6 +135,5 @@ db.getCollection("Communities").insert({
 			<br/>
 			Healthfully is a not-for-profit organization. Contact us at <b>together@healthfully.com</b> with inquiries for collaborations.
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	</body>
 </html>

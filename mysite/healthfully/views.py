@@ -6,7 +6,10 @@ from pymongo import MongoClient
 
 client = MongoClient(port=27017)
 
+def showContent():
+	print("hiii");
+	return render(request, 'index.html', context={'showContentBool': 'true'})
 
 def index(request):
-	return render(request, 'index.html', context={})
+	return render(request, 'index.html', context={'showContentBool': 'false'})
     # return HttpResponse("Hello, world.")
