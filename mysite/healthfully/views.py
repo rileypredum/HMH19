@@ -6,9 +6,7 @@ from pymongo import MongoClient
 
 client = MongoClient(port=27017)
 
+
 def index(request):
-	return render(request, 'index.html', context={
-		"blogs": [1,2,3, 4, 5, 6],
-		"communities": [1,2,3],
-	})
+	return render(request, 'index.html', context={})
     # return HttpResponse("Hello, world.")
