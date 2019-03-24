@@ -10,7 +10,6 @@
 	</head>
 
 	<body style="min-height: 100vh; background: repeating-linear-gradient(-15deg, #DCF5ED, #FACAA6);">
-		<!-- #EEE2D7 70%,  -->
 		<div style="padding: 10px 50px 10px 50px; font-size: 20px;">
 			Healthfully
 		</div>
@@ -42,36 +41,93 @@
 				<span>don't want to do anything</span>
 				<span>nervous around other people</span>
 			</div>
+		</div>
 
+		<div style="text-align: center;">
+			Resources provided are not intended for diagnosis.<br>
+			If you're experiencing serious symptoms, please talk to a medical professional.
+		</div>
+
+		<div style="text-align: center;">
+			<button style="">
+				Find Stories
+			</button>
 		</div>
 		<!-- quote -->
 		<div style="text-align: center;">
 			<span>"Smile, breathe, and go slowly."</span><br>
 			- Thich Nhat Hahn
 		</div>
+
+<!-- db.getCollection("Communities").insert({
+    "title": "r/anxiety",
+    "preview": "Discussion and support for sufferers and loved ones of any anxiety disorder.",
+    "hyperlink": "https://www.reddit.com/r/Anxiety/"
+})
+
+db.getCollection("Communities").insert({
+    "title": "Group Support Rooms",
+    "preview": "7 Cups - Group Support Room for anxiety",
+    "hyperlink": "https://www.7cups.com/connect/groupChatrooms.php"
+})
+
+db.getCollection("Communities").insert({
+    "title": "#HALFTHESTORY",
+    "preview": "A community that encourages you to share a part of yourself that exists outside of your social media story",
+    "hyperlink": "https://www.instagram.com/halfthestory/?hl=en"
+}) -->
+
 		{% if showContent != "true" %}{% endif %}
 		<div style="margin-left: 10%; margin-right: 10%; ">
 			<div style="margin-bottom: 10px">
 				<div style="text-decoration: underline double; font-size: 24px; margin-bottom: 10px; background: white; width: 210px; padding-bottom: 10px">Blogs and Stories</div>
 				<div style="overflow-x: auto; white-space: nowrap;">
-					{% for blog in blogs %}
-					    <a class="tile" style="width: 315px; height: 300px; margin-right: 15px; display: inline-block; background: white">
-							<img src="{% static 'images/sunset.jpg' %}" style="width: 315px; height: 155px"><br>
+				    <div class="tile">
+						<a href="https://medium.com/@charmagne7/anyone-else-lonely-af-3e6b21a1ef0a">
+							<img src="{% static 'images/sunset.jpg' %}" class="tile-image"><br>
 							<div>
-								<div style="margin-top: 10px; margin-left: 10px; display: inline-block;">
-									<img src="{% static 'logos/medium.png' %}" style="width: 35px; height: 35px;">
+								<div class="tile-icon">
+									<img src="{% static 'logos/medium.png' %}">
 								</div>
-								<div style="font-weight: 700; line-height: 35px; display: inline-block; vertical-align: middle; vertical-align: top; width: calc(100% - 50px)">
-									<span>#HALFTHESTORY</span><br/>
-									<div style="width: 100%; word-wrap:break-word;">A community that encourages you to share a part of yourself that exists outside of your social media story</div>
+								<div class="tile-text" style="font-weight: 700; line-height: 35px; display: inline-block; vertical-align: middle; vertical-align: top; width: calc(100% - 50px)">
+									<span>Anyone else lonely af</span><br/>
+									<div style="width: 100%; word-wrap:break-word;">Sometimes I enjoy being alone but I absolutely hate being lonely. I live in a 3 bedroom townhome with my kid and our…</div>
 								</div>
 							</div>
-					    </a>
-					{% endfor %}
+						</a>
+				    </div>
+				    <div class="tile">
+						<a href="https://medium.com/60-months-to-ironman/when-i-say-im-under-the-weather-8a85af8f8368">
+							<img src="{% static 'images/sunset.jpg' %}" class="tile-image"><br>
+							<div>
+								<div class="tile-icon">
+									<img src="{% static 'logos/medium.png' %}">
+								</div>
+								<div class="tile-text">
+									<span>When I say I'm Under the Weather</span><br/>
+									<div>'Under the weather’ is a certain kind of overwhelm. When we got home on Sunday night, I realized I just wasn’t feeling it. Wasn't feeling up to the newsletter...</div>
+								</div>
+							</div>
+						</a>
+				    </div>
+				    <div class="tile">
+						<a href="https://medium.com/@davidlykhim/a-reflection-on-how-i-dug-myself-out-of-the-millennial-mental-health-decline-831ae56e721c">
+							<img src="{% static 'images/sunset.jpg' %}" class="tile-image"><br>
+							<div>
+								<div class="tile-icon">
+									<img src="{% static 'logos/medium.png' %}">
+								</div>
+								<div class="tile-text">
+									<span>A Reflection on How I Dug Myself Out of the Millennial...</span><br/>
+									<div>I stopped using dating apps. This was a big one. At every idle moment, I had a habit of pulling out my phone, opening a dating app...</div>
+								</div>
+							</div>
+						</a>
+				    </div>
 				</div>
 			</div>
 			<div>
-				<!-- <div style="text-decoration: underline double; font-size: 24px; margin-bottom: 10px; background: white; width: 170px; padding-bottom: 10px">Communities</div>
+				<div style="text-decoration: underline double; font-size: 24px; margin-bottom: 10px; background: white; width: 170px; padding-bottom: 10px">Communities</div>
 				<div style="overflow-x: auto; white-space: nowrap;">
 					{% for blog in blogs %}
 					    <div style="width: 315px; height: 300px; margin-right: 15px; display: inline-block; background: white">
@@ -87,7 +143,7 @@
 							</div>
 					    </div>
 					{% endfor %}
-				</div> -->
+				</div>
 			</div>
 		</div>
 		<div class="footer">
