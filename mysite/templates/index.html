@@ -1,1 +1,84 @@
-This is index.html
+<!doctype html>
+{% load static %}
+<html lang="en" style="margin: 0px; padding: 0;">
+<head>
+  <meta charset="utf-8">
+  <title>Healthfully</title>
+  <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css" />
+</head>
+
+<body>
+	<div style="min-height: 60vh; background: linear-gradient(-15deg, rgb(252, 231, 217) 50%, #FACAA6 50%);">
+	<!-- <div style="min-height: 60vh; background: linear-gradient(-15deg, #DCF5ED 50%, #FACAA6 50%);"> -->
+		<div style="padding: 10px 50px 10px 50px; font-size: 20px;">
+			Healthfully
+		</div>
+		<div style="text-align: center;">
+			<span style="font-size: 30px;">Start to understand your feelings</span><br>
+			<span style="font-size: 20px;">Get informed, connect to communities, & explore options for support</span>
+		</div>
+		<!-- How are you feeling -->
+		<div style="text-align: center;">
+			<div style="width: 550px">
+				<div style="color: transparent; border-radius: 3px; border: 1px solid black; width: 500px; height: 40px;"></div>
+				<div style="background-color: #CB7979; border-radius: 3px; border: 1px solid #CB7979; width: 500px; height: 40px; line-height: 40px; top: 10px; left: -470px;">
+					How are you feeling?
+				</div>
+			</div>
+			Select up to 3
+		</div>
+		<div style="text-align: center;">
+			<img src="{% static 'images/cloud.svg' %}" style="width: 600px; height: 300px"><br>
+			<div style="">
+				<!-- margin-top: -600px; width: 600px; height: 300px -->
+				<!-- Wordcloud section -->
+				<span>alone</span>
+				<span style="font-size: 14px">confused</span>
+				<span style="font-size: 18px">always tired</span>
+				<span>noething matters</span>
+				<span>under the weather</span>
+				<span>foggy</span>
+				<span>don't want to do anything</span>
+				<span>nervous around other people</span>
+			</div>
+			<div>
+				Resources provided are not intended for diagnosis.
+				If you are experi
+			</div>
+		</div>
+		<!-- quote -->
+		<div>
+			<span>"Smile, breathe, and go slowly."</span><br>
+			- Thich Nhat Hahn
+		</div>
+		<div style="margin-left: 10%; margin-right: 10%; ">
+			<div>
+				Blogs and Stories
+				<div style="overflow-x: auto; white-space: nowrap;">
+					{% for blog in blogs %}
+					    <div style="width: 315px; height: 225px; margin-right: 15px; display: inline-block; background: white">
+							<img src="{% static 'images/sunset.jpg' %}" style="width: 315px; height: 155px"><br>
+							<div>
+								<div style="margin-top: 10px; margin-left: 10px; display: inline-block;">
+									<img src="{% static 'logos/medium.png' %}" style="width: 35px; height: 35px;">
+								</div>
+								<div style="font-weight: 700; line-height: 35px; display: inline-block; vertical-align: middle; vertical-align: top;">
+									#HALFTHESTORY
+								</div>
+								<div>
+									A community that encourages you to share a part of yourself that exists outside of your social media story
+								</div>
+							</div>
+					    </div>
+					{% endfor %}
+				</div>
+			</div>
+			<div>
+				Communities
+			</div>
+		</div>
+	</div>
+</body>
+</html>
