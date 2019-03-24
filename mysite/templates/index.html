@@ -55,19 +55,19 @@
 		</div>
 		<div style="margin-left: 10%; margin-right: 10%; ">
 			<div>
-				Blogs and Stories
+				<div>Blogs and Stories</div>
 				<div style="overflow-x: auto; white-space: nowrap;">
 					{% for blog in blogs %}
-					    <div style="width: 315px; height: 225px; margin-right: 15px; display: inline-block; background: white">
+					    <div style="width: 315px; height: 300px; margin-right: 15px; display: inline-block; background: white">
 							<img src="{% static 'images/sunset.jpg' %}" style="width: 315px; height: 155px"><br>
-							<div>
+							<div style="width: 100%">
 								<div style="margin-top: 10px; margin-left: 10px; display: inline-block;">
 									<img src="{% static 'logos/medium.png' %}" style="width: 35px; height: 35px;">
 								</div>
-								<div style="font-weight: 700; line-height: 35px; display: inline-block; vertical-align: middle; vertical-align: top;">
+								<div style="font-weight: 700; line-height: 35px; height: 35px; display: inline-block;">
 									#HALFTHESTORY
 								</div>
-								<div>
+								<div style="width: 100%; white-space: nowrap;">
 									A community that encourages you to share a part of yourself that exists outside of your social media story
 								</div>
 							</div>
@@ -76,7 +76,25 @@
 				</div>
 			</div>
 			<div>
-				Communities
+				<div>Communities</div>
+				<div style="overflow-x: auto; white-space: nowrap;">
+					{% for blog in blogs %}
+					    <div style="width: 315px; height: 300px; margin-right: 15px; display: inline-block; background: white">
+							<img src="{% static 'images/sunset.jpg' %}" style="width: 315px; height: 155px"><br>
+							<div style="width: 100%">
+								<div style="margin-top: 10px; margin-left: 10px; display: inline-block;">
+									<img src="{% static 'logos/medium.png' %}" style="width: 35px; height: 35px;">
+								</div>
+								<div style="font-weight: 700; line-height: 35px; height: 35px; display: inline-block;">
+									#HALFTHESTORY
+								</div>
+								<div style="width: 100%; white-space: nowrap;">
+									A community that encourages you to share a part of yourself that exists outside of your social media story
+								</div>
+							</div>
+					    </div>
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 	</div>
