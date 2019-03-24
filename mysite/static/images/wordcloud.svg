@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="906px" height="396px" viewBox="0 0 906 396" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M200.398637,347 L813.494713,347 C881.133982,290.5744 876.543332,234.911257 799.722761,180.01057 C813.494713,143.744322 647.951392,-9.25784205 530.612759,108.444488 C382.227091,-7.57253925 272.155717,0.359434917 200.398637,132.240411 C118.533788,215.323316 118.533788,286.909845 200.398637,347 Z" id="path-1"></path>
+        <filter x="-3.3%" y="-6.6%" width="106.6%" height="115.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M177.398637,345 L790.494713,345 C858.133982,288.5744 853.543332,232.911257 776.722761,178.01057 C790.494713,141.744322 624.951392,-11.2578421 507.612759,106.444488 C359.227091,-9.57253925 249.155717,-1.64056508 177.398637,130.240411 C95.5337876,213.323316 95.5337876,284.909845 177.398637,345 Z" id="Rectangle-Copy-2" fill="#FFFFFF"></path>
+        <g id="Rectangle-Copy-4">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <text id="can’t-focus" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#424242">
+            <tspan x="549" y="276">can’t focus</tspan>
+        </text>
+        <text id="under-the-weather" font-family="Raleway-Regular, Raleway" font-size="22" font-weight="normal" fill="#424242">
+            <tspan x="583" y="175">under the weather</tspan>
+        </text>
+        <text id="no-one-cares" font-family="Raleway-Regular, Raleway" font-size="25" font-weight="normal" fill="#424242">
+            <tspan x="684" y="251">no one cares</tspan>
+        </text>
+        <text id="nothing-matters" font-family="Raleway-Regular, Raleway" font-size="20" font-weight="normal" fill="#424242">
+            <tspan x="200" y="172">nothing matters</tspan>
+        </text>
+        <text id="nervous-around-other" font-family="Raleway-Regular, Raleway" font-size="30" font-weight="normal" fill="#424242">
+            <tspan x="152" y="252">nervous around other people</tspan>
+        </text>
+        <text id="foggy" font-family="Raleway-Regular, Raleway" font-size="32" font-weight="normal" fill="#424242">
+            <tspan x="334" y="198">foggy</tspan>
+        </text>
+        <text id="alone" font-family="Raleway-Regular, Raleway" font-size="32" font-weight="normal" fill="#424242">
+            <tspan x="256" y="104">alone</tspan>
+        </text>
+        <text id="don’t-want-to-do-any" font-family="Raleway-Regular, Raleway" font-size="18" font-weight="normal" fill="#424242">
+            <tspan x="518" y="201">don’t want to do anything</tspan>
+        </text>
+        <text id="always-tired" font-family="Raleway-Regular, Raleway" font-size="40" font-weight="normal" fill="#424242">
+            <tspan x="420" y="140">always tired</tspan>
+        </text>
+        <text id="confused" font-family="Raleway-Regular, Raleway" font-size="14" font-weight="normal" fill="#424242">
+            <tspan x="271" y="132">confused</tspan>
+        </text>
+        <g id="icon/quote" transform="translate(0.000000, 179.000000)">
+            <path d="M35.7844441,12.515625 C19.8083564,14.5088719 11.8203125,24.5673425 11.8203125,42.6910368 C11.8203125,60.8147311 11.8203125,71.0865488 11.8203125,73.50649 L38.7783728,73.50649 L38.7783728,42.6910368 L25.2993427,42.6910368 C24.8408784,31.9387418 28.3359122,25.8540312 35.7844441,24.436905 C35.7844441,21.2222118 35.7844441,17.2484518 35.7844441,12.515625 Z" id="Path" fill="#424242" fill-rule="evenodd"></path>
+            <path d="M71.9406941,13.90625 C55.9646064,15.8994969 47.9765625,25.9579675 47.9765625,44.0816618 C47.9765625,62.2053561 47.9765625,72.4771738 47.9765625,74.897115 L74.9346228,74.897115 L74.9346228,44.0816618 L61.4555927,44.0816618 C60.9971284,33.3293668 64.4921622,27.2446562 71.9406941,25.82753 C71.9406941,22.6128368 71.9406941,18.6390768 71.9406941,13.90625 Z" id="Path-Copy-2" fill="#424242" fill-rule="evenodd"></path>
+            <path d="M37.8703816,14.6015625 C21.8942939,16.5948094 13.90625,26.65328 13.90625,44.7769743 C13.90625,62.9006686 13.90625,73.1724863 13.90625,75.5924275 L40.8643103,75.5924275 L40.8643103,44.7769743 L27.3852802,44.7769743 C26.9268159,34.0246793 30.4218497,27.9399687 37.8703816,26.5228425 C37.8703816,23.3081493 37.8703816,19.3343893 37.8703816,14.6015625 Z" id="Path-Copy" stroke="#424242" stroke-width="1"></path>
+            <path d="M74.0266316,15.9921875 C58.0505439,17.9854344 50.0625,28.043905 50.0625,46.1675993 C50.0625,64.2912936 50.0625,74.5631113 50.0625,76.9830525 L77.0205603,76.9830525 L77.0205603,46.1675993 L63.5415302,46.1675993 C63.0830659,35.4153043 66.5780997,29.3305937 74.0266316,27.9134675 C74.0266316,24.6987743 74.0266316,20.7250143 74.0266316,15.9921875 Z" id="Path-Copy-3" stroke="#424242" stroke-width="1"></path>
+        </g>
+        <rect id="Rectangle" fill="#CB7979" opacity="0.817615327" x="278" y="8" width="333" height="45" rx="3"></rect>
+        <rect id="Rectangle-Copy-5" stroke="#424242" x="271.5" y="0.5" width="332" height="44" rx="3"></rect>
+        <text id="How-are-you-feeling?" font-family="Raleway-SemiBold, Raleway" font-size="18" font-weight="500" fill="#FFFFFF">
+            <tspan x="353.323" y="33">How are you feeling?</tspan>
+        </text>
+        <text id="Select-up-to-3" font-family="Catamaran-SemiBold, Catamaran SemiBold" font-size="18" font-weight="500" fill="#000000">
+            <tspan x="624" y="45">Select up to 3</tspan>
+        </text>
+        <text id="overwhelmed" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" fill="#424242">
+            <tspan x="200" y="305">overwhelmed</tspan>
+        </text>
+        <text id="worried-about-life" font-family="Raleway-Regular, Raleway" font-size="38" font-weight="normal" fill="#424242">
+            <tspan x="470" y="326">worried about life</tspan>
+        </text>
+        <g id="icon/quote" transform="translate(861.500000, 118.500000) rotate(-180.000000) translate(-861.500000, -118.500000) translate(817.000000, 74.000000)">
+            <path d="M35.7844441,12.515625 C19.8083564,14.5088719 11.8203125,24.5673425 11.8203125,42.6910368 C11.8203125,60.8147311 11.8203125,71.0865488 11.8203125,73.50649 L38.7783728,73.50649 L38.7783728,42.6910368 L25.2993427,42.6910368 C24.8408784,31.9387418 28.3359122,25.8540312 35.7844441,24.436905 C35.7844441,21.2222118 35.7844441,17.2484518 35.7844441,12.515625 Z" id="Path" fill="#424242" fill-rule="evenodd"></path>
+            <path d="M71.9406941,13.90625 C55.9646064,15.8994969 47.9765625,25.9579675 47.9765625,44.0816618 C47.9765625,62.2053561 47.9765625,72.4771738 47.9765625,74.897115 L74.9346228,74.897115 L74.9346228,44.0816618 L61.4555927,44.0816618 C60.9971284,33.3293668 64.4921622,27.2446562 71.9406941,25.82753 C71.9406941,22.6128368 71.9406941,18.6390768 71.9406941,13.90625 Z" id="Path-Copy-2" fill="#424242" fill-rule="evenodd"></path>
+            <path d="M37.8703816,14.6015625 C21.8942939,16.5948094 13.90625,26.65328 13.90625,44.7769743 C13.90625,62.9006686 13.90625,73.1724863 13.90625,75.5924275 L40.8643103,75.5924275 L40.8643103,44.7769743 L27.3852802,44.7769743 C26.9268159,34.0246793 30.4218497,27.9399687 37.8703816,26.5228425 C37.8703816,23.3081493 37.8703816,19.3343893 37.8703816,14.6015625 Z" id="Path-Copy" stroke="#424242" stroke-width="1"></path>
+            <path d="M74.0266316,15.9921875 C58.0505439,17.9854344 50.0625,28.043905 50.0625,46.1675993 C50.0625,64.2912936 50.0625,74.5631113 50.0625,76.9830525 L77.0205603,76.9830525 L77.0205603,46.1675993 L63.5415302,46.1675993 C63.0830659,35.4153043 66.5780997,29.3305937 74.0266316,27.9134675 C74.0266316,24.6987743 74.0266316,20.7250143 74.0266316,15.9921875 Z" id="Path-Copy-3" stroke="#424242" stroke-width="1"></path>
+        </g>
+        <text id="Resources-provided-a" font-family="Raleway-Regular, Raleway" font-size="12" font-weight="normal" line-spacing="16" fill="#797979">
+            <tspan x="332.436" y="375">Resources provided are not intended for diagnosis.</tspan>
+            <tspan x="256.482" y="391">If you’re experiencing serious symptoms, please talk to a medical professional.</tspan>
+        </text>
+    </g>
+</svg>
